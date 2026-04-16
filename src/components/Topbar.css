@@ -67,8 +67,8 @@
   border-bottom: 1px solid var(--border);
 }
 .nav-icon2 {
-  width: 17px;
-  height: 17px;           /* ⭐ important (same height) */
+  width: 21px;
+  height: 21px;           /* ⭐ important (same height) */
   object-fit: contain;
   display: block;         /* ⭐ removes extra inline space */
 }

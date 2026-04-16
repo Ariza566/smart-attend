@@ -1,10 +1,9 @@
 
 import './Profile.css';
-import { useAuth } from "../Context/AuthContext";
+// import { useAuth } from "../Context/AuthContext";
 
-
+import { Link } from "react-router-dom";
 import teacher from '../assets/teacher.png';
-
 const Profile = () => {
   return (
     <div className='main-cont'>
@@ -84,7 +83,9 @@ const Profile = () => {
         </div>
       </div>
       <div className='logout'>
+        <Link to="/" className="nav-link">
         <button className='logout-btn'>Logout</button>
+        </Link>
       </div>
     </div>
   );

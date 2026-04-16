@@ -106,8 +106,9 @@ const Topbar = ({ toggleTheme, theme }) => {
      <Link to="/profile" className="nav-link"> 
     <img src={image} alt="Profile"  className='nav-icon'/>
      </Link>
+     <Link to='/' className="nav-link">
       <img src={image2} alt="Profile"  className='nav-icon2'/>
-   
+   </Link>
     </div>
   );
 };
